@@ -1,0 +1,16 @@
+{
+  "name": "MongoDB_1",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "MongoDB",
+  "isCollection": true,
+  "server": "localhost",
+  "databaseName": "audit",
+  "databaseUser": null,
+  "databasePassword": null,
+  "collectionName": "audit",
+  "attachPath": null,
+  "keys": null,
+  "filter": null,
+  "order": null
+}
