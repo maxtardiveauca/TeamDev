@@ -1,0 +1,12 @@
+{
+  "name": "event_pre-Insert",
+  "entity": "customers",
+  "isActive": true,
+  "ruleType": "preinsertEvent",
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Event (Pre-Insert): Demo",
+  "comments": null,
+  "topics": [
+  ]
+}

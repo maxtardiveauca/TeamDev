@@ -1,0 +1,52 @@
+{
+  "name": "empOrders",
+  "description": "",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "sample",
+  "entity": "orders",
+  "join": "\"salesrep_name\" = [name]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "ident",
+      "alias": "OrderID",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "amount_total",
+      "alias": "AmountTotal",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "amount_discounted",
+      "alias": "AmountDiscounted",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "amount_paid",
+      "alias": "AmountPaid",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "amount_un_paid",
+      "alias": "AmountUnPaid",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "is_ready",
+      "alias": "IsReady",
+      "description": "",
+      "isKey": false
+    }
+  ]
+}

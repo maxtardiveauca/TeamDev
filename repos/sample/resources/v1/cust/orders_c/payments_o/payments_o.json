@@ -1,0 +1,40 @@
+{
+  "name": "payments_o",
+  "description": "",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "sample",
+  "entity": "payment_order_allocations",
+  "join": "\"order_ident\" = [ident]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "ident",
+      "alias": "ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "order_ident",
+      "alias": "order_ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "payment_ident",
+      "alias": "payment_ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "amount",
+      "alias": "amount",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

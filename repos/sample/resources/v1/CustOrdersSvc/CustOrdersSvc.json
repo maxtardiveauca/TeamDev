@@ -1,0 +1,63 @@
+{
+  "name": "CustOrdersSvc",
+  "description": "API Mashup - local Customer, remote RESTful orders\n -- click the Sub Resource",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "sample",
+  "entity": "customers",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": "\"name\" asc",
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "name",
+      "alias": "name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "balance",
+      "alias": "balance",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "credit_limit",
+      "alias": "credit_limit",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "notes",
+      "alias": "notes",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "customer_level",
+      "alias": "customer_level",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "is_credit_pre_approved",
+      "alias": "is_credit_pre_approved",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "big_order_count",
+      "alias": "big_order_count",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "max_unpaid_order",
+      "alias": "max_unpaid_order",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

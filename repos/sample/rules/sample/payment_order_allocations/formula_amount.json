@@ -1,0 +1,15 @@
+{
+  "name": "formula_amount",
+  "entity": "payment_order_allocations",
+  "isActive": true,
+  "ruleType": "formula",
+  "attribute": "amount",
+  "codeType": "JavaScript",
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "amount = return Math.min(row.allocationOrder.amount_un_paid, row.amount)\n",
+  "comments": "",
+  "topics": [
+    "Allocate Payment"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "validation_zewac",
+  "entity": "customers",
+  "isActive": true,
+  "ruleType": "validation",
+  "codeType": "JavaScript",
+  "errorMessage": null,
+  "problemAttributes": [
+  ],
+  "isAutoTitle": true,
+  "title": "Validation: return row.balance <= row.credit_limit\n",
+  "comments": "",
+  "topics": [
+    "ChkCredit"
+  ]
+}
