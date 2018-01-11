@@ -1,1 +1,1 @@
-This folder contains definitions for connections
+This folder contains definitions for [connections](https://docops.ca.com/ca-live-api-creator/4-0/en/creating-listeners/create-connections)
