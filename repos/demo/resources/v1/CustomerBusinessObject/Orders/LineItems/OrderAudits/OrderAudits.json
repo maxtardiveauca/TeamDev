@@ -1,0 +1,58 @@
+{
+  "name": "OrderAudits",
+  "description": "Audits of Order",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "demo",
+  "entity": "purchaseorder_audit",
+  "join": "\"order_number\" = [order_number]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "audit_number",
+      "alias": "audit_number",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "order_number",
+      "alias": "order_number",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "amount_total",
+      "alias": "amount_total",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "paid",
+      "alias": "paid",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "notes",
+      "alias": "notes",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "audit_time",
+      "alias": "audit_time",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "customer_name",
+      "alias": "customer_name",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

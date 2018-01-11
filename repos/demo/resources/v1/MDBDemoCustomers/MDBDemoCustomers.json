@@ -1,0 +1,39 @@
+{
+  "name": "MDBDemoCustomers",
+  "description": "Multiple Database join, see the relationships to children under Schema.",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "demo",
+  "entity": "customer",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "name",
+      "alias": "name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "balance",
+      "alias": "balance",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "credit_limit",
+      "alias": "credit_limit",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "comments",
+      "alias": "comments",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

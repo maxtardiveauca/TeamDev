@@ -1,0 +1,73 @@
+{
+  "name": "demo",
+  "prefix": "demo",
+  "title": "Demo",
+  "databaseType": "MYSQL",
+  "comments": null,
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:mysql://localhost:3308/dblocal_demo?characterEncoding=utf8",
+  "catalog": "dblocal_demo",
+  "schema": null,
+  "username": "dblocal_demo",
+  "encryptedPassword": "2:bbkEWTG4TwWj+Nvs9EugkIg+52cX80bIU4VmrpEUYGl6TnXykYguow==",
+  "encryptedPasswordSalt": "RIqOGaSW6K4IE9xUiueN+Q4Tvtuc8qjG+Y0EnPfr",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+    "employee": {
+      "virtualPrimaryKeyColumns": [
+        "login"
+      ],
+      "sequenceUsage": {
+      }
+    },
+    "STRESS_NO_PRIMARY_KEY": {
+      "virtualPrimaryKeyColumns": [
+        "id"
+      ],
+      "sequenceUsage": {
+      }
+    }
+  },
+  "viewInfos": {
+    "customers_owing": {
+      "autoNumColumns": [
+      ],
+      "virtualPrimaryKeyColumns": [
+        "name"
+      ],
+      "sequenceUsage": {
+      }
+    },
+    "employee_with_picture": {
+      "autoNumColumns": [
+        "employee_id"
+      ],
+      "virtualPrimaryKeyColumns": [
+        "employee_id"
+      ],
+      "sequenceUsage": {
+      }
+    },
+    "LineItemJoinProduct": {
+      "autoNumColumns": [
+        "LineItemId"
+      ],
+      "virtualPrimaryKeyColumns": [
+        "LineItemId"
+      ],
+      "sequenceUsage": {
+      }
+    }
+  }
+}

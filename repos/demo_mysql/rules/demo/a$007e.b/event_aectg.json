@@ -1,0 +1,18 @@
+{
+  "name": "event_aectg",
+  "entity": "a~.b",
+  "isActive": false,
+  "ruleType": "event",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": true
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": true,
+  "title": "Event: //foo.null",
+  "comments": null,
+  "topics": [
+  ]
+}

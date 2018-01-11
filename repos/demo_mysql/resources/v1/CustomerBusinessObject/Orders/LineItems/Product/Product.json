@@ -1,0 +1,46 @@
+{
+  "name": "Product",
+  "description": "Product for LineItem",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "demo",
+  "entity": "product",
+  "join": "`product_number` = [product_number]",
+  "isCollection": false,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "product_number",
+      "alias": "product_number",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "name",
+      "alias": "name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "price",
+      "alias": "price",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "icon",
+      "alias": "icon",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "full_image",
+      "alias": "full_image",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

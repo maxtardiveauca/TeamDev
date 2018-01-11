@@ -1,0 +1,7 @@
+{
+  "name": "Demo (MariaDB/MySQL)",
+  "urlFragment": "demo_mysql",
+  "comments": "Welcome examples.",
+  "isEnabled": true,
+  "authProviderName": "Built-in authentication"
+}

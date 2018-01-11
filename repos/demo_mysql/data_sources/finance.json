@@ -1,0 +1,30 @@
+{
+  "name": "finance",
+  "prefix": "finance",
+  "title": "Finance",
+  "databaseType": "DERBY",
+  "comments": null,
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:directory:/Users/banty01/derbytest/Finance",
+  "catalog": null,
+  "schema": "FINANCE",
+  "username": "FINANCE",
+  "encryptedPassword": "2:tQVI1wf0cPdizlFBlFPVFFaKhTGRwzJh12uy/VzuEx1NFDUzRvVgVw==",
+  "encryptedPasswordSalt": "T1nbA5F8eSwellrqhZHD4Sh0ODGXne8N/xKTUt3R",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

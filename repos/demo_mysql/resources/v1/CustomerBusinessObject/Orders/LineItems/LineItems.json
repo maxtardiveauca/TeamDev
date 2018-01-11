@@ -1,0 +1,52 @@
+{
+  "name": "LineItems",
+  "description": "LineItems of Order",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "demo",
+  "entity": "LineItem",
+  "join": "`order_number` = [order_number]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": "`product_number` asc",
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "lineitem_id",
+      "alias": "lineitem_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "product_number",
+      "alias": "product_number",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "order_number",
+      "alias": "order_number",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "qty_ordered",
+      "alias": "qty_ordered",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "product_price",
+      "alias": "product_price",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "attribute": "amount",
+      "alias": "amount",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

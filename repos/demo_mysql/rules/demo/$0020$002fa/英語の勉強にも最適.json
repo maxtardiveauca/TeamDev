@@ -1,0 +1,18 @@
+{
+  "name": "英語の勉強にも最適",
+  "entity": " /a",
+  "isActive": true,
+  "ruleType": "event",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": true
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": true,
+  "title": "Event: //foo.null",
+  "comments": null,
+  "topics": [
+  ]
+}
