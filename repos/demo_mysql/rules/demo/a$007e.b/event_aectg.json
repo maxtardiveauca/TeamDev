@@ -10,9 +10,9 @@
     "delete": true
   },
   "codeType": "JavaScript",
-  "isAutoTitle": true,
-  "title": "Event: //foo.null",
-  "comments": null,
+  "isAutoTitle": false,
+  "title": "Event: 英語の勉強にも最適",
+  "comments": "英語の勉強にも最適",
   "topics": [
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "InternalToken",
+  "authToken": "Kz53wcDb1h2cToqbzd0h",
+  "description": null,
+  "userIdentifier": null,
+  "isActive": true,
+  "expiration": null,
+  "logging": "*=FINE",
+  "roles": [
+    "API User"
+  ],
+  "globals": {
+  }
+}
