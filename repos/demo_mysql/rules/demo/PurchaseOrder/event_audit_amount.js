@@ -1,3 +1,4 @@
+// Add comment as part of teamdev test
 if (row.amount_total != oldRow.amount_total) {
   var newPurchaseorder_audit = logicContext.createPersistentBean("purchaseorder_audit");
   newPurchaseorder_audit.amount_total = oldRow.amount_total;  // set attributes from old values
@@ -6,6 +7,5 @@ if (row.amount_total != oldRow.amount_total) {
   newPurchaseorder_audit.order_number = oldRow.order_number;  // set the foreign key
   logicContext.insert(newPurchaseorder_audit);                // saves (fires logic)
 }
-// better: re-use alternative using Loadable Libraries
-// if (row.amount_total != oldRow.amount_total)
-//   SysLogic.insertChildFrom("purchaseorder_audit", logicContext);
+
+print("Hello from teamdev test");

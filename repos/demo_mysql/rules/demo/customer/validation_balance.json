@@ -8,7 +8,7 @@
   "problemAttributes": [
   ],
   "isAutoTitle": true,
-  "title": "Validation: return row.balance <= row.credit_limit;\n",
+  "title": "Validation return row.balance <= row.credit_limit;\n",
   "comments": "balance cannot exceed credit limit, else throw exception",
   "topics": [
     "Check Credit"

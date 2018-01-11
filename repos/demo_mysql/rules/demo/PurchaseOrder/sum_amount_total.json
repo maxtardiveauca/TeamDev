@@ -9,7 +9,7 @@
   "qualification": null,
   "isJIT": false,
   "isAutoTitle": true,
-  "title": "amount_total = sum(LineItemList.amount)",
+  "title": "Derive amount_total as sum(LineItemList.amount)",
   "comments": "sum of line item amounts",
   "topics": [
     "Check Credit"

@@ -1,4 +1,5 @@
 // Trivial example: find greatest common divisor for two positive numbers
+// Modified as part of teamdev test
 var div = 2
 var gcd = 1;
 
@@ -10,6 +11,8 @@ if (parameters.n1 < 2 || parameters.n2 < 2) {
         message: "One or both of your parameters were less than 2, so the result is 1"
     };
 }
+
+// One more comment here
     
 if (parameters.n1 > 1000000000000 || parameters.n2 > 1000000000000) {
     return {

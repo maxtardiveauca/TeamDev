@@ -14,8 +14,6 @@
   "catalog": null,
   "schema": "FINANCE",
   "username": "FINANCE",
-  "encryptedPassword": "2:tQVI1wf0cPdizlFBlFPVFFaKhTGRwzJh12uy/VzuEx1NFDUzRvVgVw==",
-  "encryptedPasswordSalt": "T1nbA5F8eSwellrqhZHD4Sh0ODGXne8N/xKTUt3R",
   "maximumConnections": 20,
   "tableExcludes": null,
   "tableIncludes": null,
