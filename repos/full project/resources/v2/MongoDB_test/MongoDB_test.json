@@ -1,0 +1,16 @@
+{
+  "name": "MongoDB_test",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "MongoDB",
+  "isCollection": true,
+  "server": null,
+  "databaseName": null,
+  "databaseUser": null,
+  "databasePassword": null,
+  "collectionName": null,
+  "attachPath": null,
+  "keys": null,
+  "filter": null,
+  "order": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "fullname": "Demo user",
+  "email": "admin@ca.com",
+  "isActive": true,
+  "comments": null,
+  "keyLifetimeSeconds": null,
+  "passwordHash": "LFU36oBGQH+NFVnh8+C5krrxv1PXI/qLgrzUKcIFNmWstXuZBTrf0J1A7elXKNHsRXLlS64D16LLH4EDL14jYA==",
+  "passwordSalt": "g73tldjG/jfnWmi2jfv5uAVpZu2oSxLB2DZIs7IM",
+  "roles": [
+    "API Owner"
+  ],
+  "globals": {
+    "area": "SriLanka",
+    "region": "SouthAsia"
+  }
+}

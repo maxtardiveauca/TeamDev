@@ -1,0 +1,7 @@
+{
+  "name": "Full Project for Testing",
+  "urlFragment": "test",
+  "comments": "This is a sample project with 1 of everything",
+  "isEnabled": true,
+  "authProviderName": "Built-in authentication"
+}

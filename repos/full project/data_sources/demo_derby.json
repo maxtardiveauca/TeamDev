@@ -1,0 +1,30 @@
+{
+  "name": "demo_derby",
+  "prefix": "demo",
+  "title": "Demo",
+  "databaseType": "DERBY",
+  "comments": null,
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:directory:/Users/banty01/derbytest/Demo",
+  "catalog": null,
+  "schema": "DEMO",
+  "username": "DEMO",
+  "encryptedPassword": null,
+  "encryptedPasswordSalt": null,
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

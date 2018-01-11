@@ -1,0 +1,11 @@
+{
+  "name": "New Timer",
+  "startTimestampOffset": null,
+  "endTimestampOffset": null,
+  "isNoOverlap": true,
+  "isActive": false,
+  "isSingleServer": false,
+  "crontab": "/15 * * * * ? *",
+  "isLogErrorOnly": false,
+  "loggingLevel": "Fine"
+}

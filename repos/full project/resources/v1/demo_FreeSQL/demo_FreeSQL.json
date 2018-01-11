@@ -1,0 +1,8 @@
+{
+  "name": "demo_FreeSQL",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "FreeSQL",
+  "prefix": "demo",
+  "isCollection": true
+}

@@ -1,0 +1,8 @@
+{
+  "name": "UserFilter",
+  "description": "description",
+  "isRestricted": true,
+  "appliesTo": [
+    "cusomter"
+  ]
+}

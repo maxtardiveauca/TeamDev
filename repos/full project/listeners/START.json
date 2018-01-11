@@ -1,0 +1,9 @@
+{
+  "name": "START",
+  "isActive": false,
+  "loggingLevel": "Warning",
+  "description": null,
+  "connectionName": null,
+  "providerName": "Startup",
+  "parameters": null
+}

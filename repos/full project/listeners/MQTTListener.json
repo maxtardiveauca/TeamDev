@@ -1,0 +1,14 @@
+{
+  "name": "MQTTListener",
+  "isActive": true,
+  "loggingLevel": "Fine",
+  "description": null,
+  "connectionName": "MQTTConn",
+  "providerName": "MQTT",
+  "parameters": {
+    "topic_name": {
+      "value": "test",
+      "description": null
+    }
+  }
+}

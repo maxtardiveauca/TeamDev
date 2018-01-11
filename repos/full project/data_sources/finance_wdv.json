@@ -1,0 +1,44 @@
+{
+  "name": "finance_wdv",
+  "prefix": "finance",
+  "title": "Finance",
+  "databaseType": "DERBY",
+  "comments": null,
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:directory:/Users/banty01/derbytest/Finance",
+  "catalog": null,
+  "schema": "\"FINANCE\"",
+  "username": "\"FINANCE\"",
+  "encryptedPassword": null,
+  "encryptedPasswordSalt": null,
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+    "orders": {
+      "NPADec": {
+        "dataType": "npa_decimal",
+        "comments": null
+      },
+      "NPAInt": {
+        "dataType": "npa_integer",
+        "comments": null
+      },
+      "NPAString": {
+        "dataType": "npa_varchar",
+        "comments": null
+      }
+    }
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

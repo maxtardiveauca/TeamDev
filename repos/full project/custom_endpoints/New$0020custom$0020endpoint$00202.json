@@ -1,0 +1,13 @@
+{
+  "name": "New custom endpoint 2",
+  "isActive": true,
+  "description": "comment",
+  "requiresAuthentication": true,
+  "urlPattern": ".test2",
+  "appliesTo": {
+    "get": true,
+    "put": true,
+    "post": true,
+    "delete": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ResponseEvent",
+  "eventType": "response",
+  "comments": "comments",
+  "isActive": true
+}

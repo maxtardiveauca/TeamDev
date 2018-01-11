@@ -1,0 +1,27 @@
+{
+  "name": "AllCustomers",
+  "description": "Query for all customers",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "demo",
+  "entity": "customer",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "attribute": "balance",
+      "alias": "balance",
+      "description": "",
+      "isKey": false
+    },
+    {
+      "attribute": "name",
+      "alias": "name",
+      "description": "",
+      "isKey": false
+    }
+  ]
+}

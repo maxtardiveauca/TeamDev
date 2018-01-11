@@ -1,0 +1,6 @@
+{
+  "name": "RequestEvent",
+  "eventType": "request",
+  "comments": "comments",
+  "isActive": true
+}

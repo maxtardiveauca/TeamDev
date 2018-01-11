@@ -1,0 +1,8 @@
+{
+  "name": "UserSort",
+  "description": "descr",
+  "isRestricted": true,
+  "appliesTo": [
+    "customer"
+  ]
+}

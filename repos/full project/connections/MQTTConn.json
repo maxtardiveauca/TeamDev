@@ -1,0 +1,24 @@
+{
+  "name": "MQTTConn",
+  "isActive": true,
+  "description": "comments",
+  "providerName": "MQTT",
+  "parameters": {
+    "broker": {
+      "value": "tcp://localhost",
+      "comments": null
+    },
+    "clientId": {
+      "value": "RANDOM",
+      "comments": null
+    },
+    "automaticReconnect": {
+      "value": "true",
+      "comments": null
+    },
+    "keepAliveInterval": {
+      "value": "0",
+      "comments": null
+    }
+  }
+}
