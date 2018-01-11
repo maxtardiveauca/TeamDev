@@ -1,0 +1,28 @@
+{
+  "name": "main_phm",
+  "prefix": "main",
+  "title": "Database: Derby - Pavlov",
+  "databaseType": "DERBY",
+  "comments": "Created using Connect Wizard",
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:Pavlov",
+  "catalog": null,
+  "schema": "PAVLOV",
+  "username": "PAVLOV",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

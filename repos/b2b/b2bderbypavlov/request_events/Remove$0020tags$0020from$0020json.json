@@ -1,0 +1,6 @@
+{
+  "name": "Remove tags from json",
+  "eventType": "request",
+  "comments": "Alter the json prior to system processing.  \nHere we delete tags, you might also inject @metadata tags.",
+  "isActive": true
+}

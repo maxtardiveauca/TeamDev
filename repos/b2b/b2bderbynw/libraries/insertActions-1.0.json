@@ -1,0 +1,10 @@
+{
+  "name": "insertActions",
+  "version": "1.0",
+  "isUsedByProject": true,
+  "title": "InsertActionsLib",
+  "description": "This is a library",
+  "groupName": "newlib",
+  "docsURL": "",
+  "referenceURL": ""
+}

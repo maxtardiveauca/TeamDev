@@ -1,0 +1,11 @@
+{
+  "name": "ship",
+  "isActive": true,
+  "comments": "Ship the Order.\nSets shipped date, which affects the balance (and checks credit).",
+  "returnType": "",
+  "parameters": null,
+  "functionType": "rowLevel",
+  "appliesTo": [
+    "nw:Orders"
+  ]
+}

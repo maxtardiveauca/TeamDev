@@ -1,0 +1,10 @@
+{
+  "name": "CustomAuth",
+  "version": "1.0",
+  "isUsedByProject": true,
+  "title": "B2BAuthProvider",
+  "description": "This is a library",
+  "groupName": "newlib",
+  "docsURL": "",
+  "referenceURL": ""
+}

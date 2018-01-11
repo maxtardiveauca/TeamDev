@@ -1,0 +1,56 @@
+{
+  "name": "nw_mdx",
+  "prefix": "nw",
+  "title": "Derby - Northwind",
+  "databaseType": "DERBY",
+  "comments": "Created using Connect Wizard",
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:Northwind",
+  "catalog": null,
+  "schema": "NORTHWIND",
+  "username": "NORTHWIND",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+    "Employees": {
+      "fullName": {
+        "dataType": "npa_varchar",
+        "comments": null
+      }
+    },
+    "Order Details": {
+      "isHealthy": {
+        "dataType": "npa_boolean",
+        "comments": null
+      }
+    },
+    "Orders": {
+      "discountedAmount": {
+        "dataType": "npa_decimal",
+        "comments": null
+      },
+      "healthyCount": {
+        "dataType": "npa_integer",
+        "comments": null
+      }
+    },
+    "Suppliers": {
+      "URL": {
+        "dataType": "npa_varchar",
+        "comments": null
+      }
+    }
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

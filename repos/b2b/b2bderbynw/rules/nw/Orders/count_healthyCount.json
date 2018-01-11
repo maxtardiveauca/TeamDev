@@ -1,0 +1,17 @@
+{
+  "name": "count_healthyCount",
+  "entity": "Orders",
+  "isActive": true,
+  "ruleType": "count",
+  "attribute": "healthyCount",
+  "roleToChildren": "OrderDetails_List",
+  "qualification": "isHealthy == true",
+  "isJIT": false,
+  "isAutoTitle": false,
+  "title": "null",
+  "comments": null,
+  "topics": [
+    "Check Credit",
+    "Healthy Food Discount"
+  ]
+}

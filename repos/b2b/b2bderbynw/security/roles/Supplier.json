@@ -1,0 +1,46 @@
+{
+  "name": "Supplier",
+  "description": "Login as pavlov.  \nThe Custom Auth Provider filters supplier rows, using userData.\nRest Endpoints are limited (click tab above).",
+  "defaultTablePermission": "N",
+  "defaultViewPermission": "N",
+  "globals": {
+  },
+  "apiVisibility": {
+    "table": {
+      "isRestricted": true,
+      "restrictedTo": [
+        "nw:Suppliers",
+        "promos:promotions"
+      ]
+    },
+    "view": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "resource": {
+      "isRestricted": true,
+      "restrictedTo": [
+        "v1/SupplierAlert",
+        "v1/SupplierInfo"
+      ]
+    },
+    "procedure": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "metatable": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "function": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    }
+  },
+  "entityPermission": {
+  },
+  "functionPermission": null
+}
