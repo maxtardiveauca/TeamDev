@@ -1,0 +1,14 @@
+{
+  "name": "KafkaListener",
+  "isActive": true,
+  "loggingLevel": "Fine",
+  "description": null,
+  "connectionName": "KafkaConsumerConnection",
+  "providerName": "KafkaConsumer",
+  "parameters": {
+    "topics": {
+      "value": "test",
+      "description": null
+    }
+  }
+}

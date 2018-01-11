@@ -1,0 +1,7 @@
+{
+  "name": "MQTT",
+  "urlFragment": "mqtt",
+  "comments": "A sample MQTT API ready for adding JavaScript functions, JavaScript resources, custom endpoints and data source connections",
+  "isEnabled": false,
+  "authProviderName": "Built-in authentication"
+}

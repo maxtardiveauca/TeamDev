@@ -1,0 +1,7 @@
+{
+  "name": "Kafka",
+  "urlFragment": "kafka",
+  "comments": "This sample demonstrates Kafka Consumer and Producer connections, listeners and a JavaScript function used to publish a message to a Kafka Server.  See Rest Lab: endpoint: functions: publishKafkaMessage(string topic, string message, number partition).  Also - check out Timers - this will publish a message to a topic on a regular interval.",
+  "isEnabled": false,
+  "authProviderName": "Built-in authentication"
+}

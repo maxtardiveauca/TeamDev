@@ -1,0 +1,11 @@
+{
+  "name": "TimerPublishMQTTMessage",
+  "startTimestampOffset": null,
+  "endTimestampOffset": null,
+  "isNoOverlap": false,
+  "isActive": false,
+  "isSingleServer": true,
+  "crontab": "/5 * * * * ? *",
+  "isLogErrorOnly": false,
+  "loggingLevel": "Fine"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "KafkaProducerConnection",
+  "isActive": false,
+  "description": null,
+  "providerName": "KafkaProducer",
+  "parameters": {
+    "group.id": {
+      "value": "1",
+      "comments": null
+    },
+    "value.serializer": {
+      "value": "org.apache.kafka.common.serialization.StringSerializer",
+      "comments": null
+    },
+    "retries": {
+      "value": "1",
+      "comments": null
+    },
+    "key.serializer": {
+      "value": "org.apache.kafka.common.serialization.StringSerializer",
+      "comments": null
+    },
+    "bootstrap.servers": {
+      "value": "localhost:9092",
+      "comments": null
+    },
+    "acks": {
+      "value": "all",
+      "comments": null
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "KafkaConsumerConnection",
+  "isActive": true,
+  "description": null,
+  "providerName": "KafkaConsumer",
+  "parameters": {
+    "group.id": {
+      "value": "0",
+      "comments": null
+    },
+    "key.deserializer": {
+      "value": "org.apache.kafka.common.serialization.StringDeserializer",
+      "comments": null
+    },
+    "value.deserializer": {
+      "value": "org.apache.kafka.common.serialization.StringDeserializer",
+      "comments": null
+    },
+    "connections.max.idle.ms": {
+      "value": "540000",
+      "comments": null
+    },
+    "bootstrap.servers": {
+      "value": "localhost:9092",
+      "comments": null
+    },
+    "enable.auto.commit": {
+      "value": "true",
+      "comments": null
+    }
+  }
+}

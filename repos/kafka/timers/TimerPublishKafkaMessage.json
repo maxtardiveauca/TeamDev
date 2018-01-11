@@ -1,0 +1,11 @@
+{
+  "name": "TimerPublishKafkaMessage",
+  "startTimestampOffset": null,
+  "endTimestampOffset": null,
+  "isNoOverlap": false,
+  "isActive": false,
+  "isSingleServer": true,
+  "crontab": "/10 * * * * ? *",
+  "isLogErrorOnly": false,
+  "loggingLevel": "Fine"
+}

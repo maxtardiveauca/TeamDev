@@ -1,0 +1,14 @@
+{
+  "name": "MQTTResponse",
+  "isActive": true,
+  "loggingLevel": "Fine",
+  "description": null,
+  "connectionName": "MQTTConnection",
+  "providerName": "MQTT",
+  "parameters": {
+    "topic_name": {
+      "value": "lacresponse",
+      "description": null
+    }
+  }
+}
