@@ -1,0 +1,58 @@
+{
+  "name": "TeamDev role",
+  "description": null,
+  "defaultTablePermission": "N",
+  "defaultViewPermission": "N",
+  "globals": {
+    "blah": {
+      "name": "blah",
+      "description": null,
+      "isRequired": true,
+      "executionOrder": 1,
+      "codeType": "SQL",
+      "prefix": "main",
+      "sqlFragment": "'Floo'"
+    }
+  },
+  "apiVisibility": {
+    "table": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "view": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "resource": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "procedure": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "metatable": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "function": {
+      "isRestricted": false,
+      "restrictedTo": null
+    }
+  },
+  "entityPermission": {
+    "Read customers": {
+      "entity": "demo:customer",
+      "description": "Blah blah",
+      "accessLevels": [
+        "READ"
+      ],
+      "rowFilter": null,
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    }
+  },
+  "functionPermission": null
+}

@@ -15,6 +15,20 @@
   },
   {
     "parentEntity": "demo:customer",
+    "childEntity": "demo:employee",
+    "roleToParent": "customerManualRel",
+    "roleToChild": "employee_ListManualRel",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "name"
+    ],
+    "childColumns": [
+      "name"
+    ]
+  },
+  {
+    "parentEntity": "demo:customer",
     "childEntity": "demo:PurchaseOrder",
     "roleToParent": "customer",
     "roleToChild": "PurchaseOrderList",
@@ -53,6 +67,20 @@
     ],
     "childColumns": [
       "employee_id"
+    ]
+  },
+  {
+    "parentEntity": "demo:employee",
+    "childEntity": "demo:LineItem",
+    "roleToParent": "employeeManualRel",
+    "roleToChild": "LineItem_ListManualRel",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "employee_id"
+    ],
+    "childColumns": [
+      "lineitem_id"
     ]
   },
   {
