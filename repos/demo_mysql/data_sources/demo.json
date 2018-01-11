@@ -14,6 +14,7 @@
   "catalog": "dblocal_demo",
   "schema": null,
   "username": "abl",
+  "password": "kahuna",
   "maximumConnections": 20,
   "tableExcludes": null,
   "tableIncludes": null,

@@ -1,6 +1,6 @@
 {
-  "name": "Demo (MariaDB/MySQL) - Imported 20180111-113316.317-0800",
-  "urlFragment": "demo_mysql-20180111-113316.317-0800",
+  "name": "Demo - TeamDev test",
+  "urlFragment": "TeamDevTest",
   "comments": "Welcome examples.",
   "isEnabled": true,
   "authProviderName": "Built-in authentication"

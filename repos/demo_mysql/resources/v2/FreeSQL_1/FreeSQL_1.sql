@@ -1,4 +1,5 @@
 SELECT sum(`amount_total`) as SUM_AMOUNT
+-- Comment from Max
       ,`salesrep_id`
   FROM `@{CATALOG}`.`PurchaseOrder` o
  inner join `@{CATALOG}`.`LineItem` i
