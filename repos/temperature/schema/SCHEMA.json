@@ -1,0 +1,305 @@
+[
+  {
+    "entity": "Readings",
+    "primaryKeyColumns": [
+      "ident"
+    ],
+    "columns": [
+      {
+        "name": "ident",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "bigint(20)",
+        "subtype": "integer",
+        "num_bytes": 8,
+        "autonum": true
+      },
+      {
+        "name": "temperature",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts",
+        "generic_type": "timestamp",
+        "nullable": true,
+        "db_column_type": "datetime",
+        "fractional_seconds": 0
+      },
+      {
+        "name": "ts_hour",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts_day",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts_month",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      }
+    ],
+    "parents": [
+      {
+        "relationship_name": "f20748738bcad90840445d90a4d03dc8123bd15c",
+        "role_name": "ReadingsByHour",
+        "constraint_name": "fk_hourAvg",
+        "parent_entity": "ReadingsByHour",
+        "update_rule": "No Action",
+        "delete_rule": "No Action",
+        "role_to_parent": "ReadingsByHour",
+        "role_to_child": "Readings_List",
+        "parent_column_names": [
+          "ts_hour",
+          "ts_day",
+          "ts_month"
+        ],
+        "child_column_names": [
+          "ts_hour",
+          "ts_day",
+          "ts_month"
+        ]
+      }
+    ],
+    "keys": [
+      {
+        "name": "PRIMARY",
+        "type": "primary",
+        "columns": [
+          "ident"
+        ]
+      }
+    ]
+  },
+  {
+    "entity": "ReadingsByDay",
+    "primaryKeyColumns": [
+      "ts_day",
+      "ts_month"
+    ],
+    "columns": [
+      {
+        "name": "ts_day",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts_month",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "num_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "sum_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      },
+      {
+        "name": "average",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      }
+    ],
+    "parents": [
+      {
+        "relationship_name": "ea02f2f6047686602158b20e69fe7852614ae4a8",
+        "role_name": "ReadingsByMonth",
+        "constraint_name": "fk_monthAvg",
+        "parent_entity": "ReadingsByMonth",
+        "update_rule": "No Action",
+        "delete_rule": "No Action",
+        "role_to_parent": "ReadingsByMonth",
+        "role_to_child": "ReadingsByDay_List",
+        "parent_column_names": [
+          "ts_month"
+        ],
+        "child_column_names": [
+          "ts_month"
+        ]
+      }
+    ],
+    "keys": [
+      {
+        "name": "PRIMARY",
+        "type": "primary",
+        "columns": [
+          "ts_day",
+          "ts_month"
+        ]
+      }
+    ]
+  },
+  {
+    "entity": "ReadingsByHour",
+    "primaryKeyColumns": [
+      "ts_hour",
+      "ts_day",
+      "ts_month"
+    ],
+    "columns": [
+      {
+        "name": "ts_hour",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts_day",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "ts_month",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "num_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "sum_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      },
+      {
+        "name": "average",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      }
+    ],
+    "parents": [
+      {
+        "relationship_name": "9dbe7393e5a7a19116771d4a9a4fa37fe3ba1dd3",
+        "role_name": "ReadingsByDay",
+        "constraint_name": "fk_dayAvg",
+        "parent_entity": "ReadingsByDay",
+        "update_rule": "No Action",
+        "delete_rule": "No Action",
+        "role_to_parent": "ReadingsByDay",
+        "role_to_child": "ReadingsByHour_List",
+        "parent_column_names": [
+          "ts_day",
+          "ts_month"
+        ],
+        "child_column_names": [
+          "ts_day",
+          "ts_month"
+        ]
+      }
+    ],
+    "keys": [
+      {
+        "name": "PRIMARY",
+        "type": "primary",
+        "columns": [
+          "ts_hour",
+          "ts_day",
+          "ts_month"
+        ]
+      }
+    ]
+  },
+  {
+    "entity": "ReadingsByMonth",
+    "primaryKeyColumns": [
+      "ts_month"
+    ],
+    "columns": [
+      {
+        "name": "ts_month",
+        "generic_type": "number",
+        "nullable": false,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "num_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "int(11)",
+        "subtype": "integer",
+        "num_bytes": 4
+      },
+      {
+        "name": "sum_readings",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      },
+      {
+        "name": "average",
+        "generic_type": "number",
+        "nullable": true,
+        "db_column_type": "float",
+        "subtype": "floating_point",
+        "num_bits": 32
+      }
+    ],
+    "parents": [],
+    "keys": [
+      {
+        "name": "PRIMARY",
+        "type": "primary",
+        "columns": [
+          "ts_month"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "formula_average",
+  "entity": "ReadingsByMonth",
+  "isActive": true,
+  "ruleType": "formula",
+  "attribute": "average",
+  "codeType": "JavaScript",
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "average = if ( ! row.num_readings) {\n    return 0;\n}\nreturn row.sum_readings / row.num_readings;\n",
+  "comments": null,
+  "topics": [
+    "Attrbiute Derivation"
+  ]
+}

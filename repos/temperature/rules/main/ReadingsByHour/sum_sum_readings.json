@@ -1,0 +1,17 @@
+{
+  "name": "sum_sum_readings",
+  "entity": "ReadingsByHour",
+  "isActive": true,
+  "ruleType": "sum",
+  "attribute": "sum_readings",
+  "roleToChildren": "Readings_List",
+  "childAttribute": "temperature",
+  "qualification": null,
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "sum_readings = sum(Readings_List.temperature)",
+  "comments": null,
+  "topics": [
+    "Attrbiute Derivation"
+  ]
+}

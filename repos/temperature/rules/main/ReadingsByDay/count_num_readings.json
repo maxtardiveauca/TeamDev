@@ -1,0 +1,16 @@
+{
+  "name": "count_num_readings",
+  "entity": "ReadingsByDay",
+  "isActive": true,
+  "ruleType": "count",
+  "attribute": "num_readings",
+  "roleToChildren": "ReadingsByHour_List",
+  "qualification": null,
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "num_readings = count(ReadingsByHour_List)",
+  "comments": null,
+  "topics": [
+    "Attrbiute Derivation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "managedParent_ReadingsByHour",
+  "entity": "Readings",
+  "isActive": true,
+  "ruleType": "managedParent",
+  "roleToParent": "ReadingsByHour",
+  "codeType": "JavaScript",
+  "isAutoTitle": true,
+  "title": "Create parent using role ReadingsByHour if it does not exist.",
+  "comments": null,
+  "topics": [
+    "Create Parent"
+  ]
+}

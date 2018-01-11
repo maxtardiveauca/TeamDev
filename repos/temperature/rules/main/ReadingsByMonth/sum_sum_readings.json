@@ -1,0 +1,17 @@
+{
+  "name": "sum_sum_readings",
+  "entity": "ReadingsByMonth",
+  "isActive": true,
+  "ruleType": "sum",
+  "attribute": "sum_readings",
+  "roleToChildren": "ReadingsByDay_List",
+  "childAttribute": "average",
+  "qualification": null,
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "sum_readings = sum(ReadingsByDay_List.average)",
+  "comments": null,
+  "topics": [
+    "Attrbiute Derivation"
+  ]
+}

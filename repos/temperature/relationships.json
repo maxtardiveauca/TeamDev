@@ -1,0 +1,50 @@
+[
+  {
+    "parentEntity": "main:ReadingsByDay",
+    "childEntity": "main:ReadingsByHour",
+    "roleToParent": "ReadingsByDay",
+    "roleToChild": "ReadingsByHour_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ts_day",
+      "ts_month"
+    ],
+    "childColumns": [
+      "ts_day",
+      "ts_month"
+    ]
+  },
+  {
+    "parentEntity": "main:ReadingsByHour",
+    "childEntity": "main:Readings",
+    "roleToParent": "ReadingsByHour",
+    "roleToChild": "Readings_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ts_hour",
+      "ts_day",
+      "ts_month"
+    ],
+    "childColumns": [
+      "ts_hour",
+      "ts_day",
+      "ts_month"
+    ]
+  },
+  {
+    "parentEntity": "main:ReadingsByMonth",
+    "childEntity": "main:ReadingsByDay",
+    "roleToParent": "ReadingsByMonth",
+    "roleToChild": "ReadingsByDay_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ts_month"
+    ],
+    "childColumns": [
+      "ts_month"
+    ]
+  }
+]

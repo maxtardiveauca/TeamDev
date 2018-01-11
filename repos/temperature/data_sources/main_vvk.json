@@ -1,0 +1,30 @@
+{
+  "name": "main_vvk",
+  "prefix": "main",
+  "title": "Managed database: avmuy",
+  "databaseType": "MYSQL",
+  "comments": "Created using API Creation Wizard - Managed Data API",
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": true,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:mysql://localhost:3308/uwuwf",
+  "catalog": "uwuwf",
+  "schema": null,
+  "username": "root",
+  "encryptedPassword": "2:owR+w/BEazBm//ytfQttqKdTkIfgsSsoEl/DzgoyflAqOkcSA+hJdA==",
+  "encryptedPasswordSalt": "vQuqY/kNdpf5XFf2j+jozcIMMBJcf1r5ozCKXwBE",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  }
+}

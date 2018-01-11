@@ -1,0 +1,13 @@
+{
+  "name": "eventPreInsert_564",
+  "entity": "Readings",
+  "isActive": true,
+  "ruleType": "preinsertEvent",
+  "codeType": "JavaScript",
+  "isAutoTitle": true,
+  "title": "Event (Pre-Insert): var now = new Date();\nrow.ts = SysUtility.databaseNowDeferred();\nrow.ts_hour = now.getHours();\nrow.ts_day = now.getDate();\nrow.ts_month = now.getMonth() + 1;\n.null",
+  "comments": null,
+  "topics": [
+    "Events"
+  ]
+}

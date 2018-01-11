@@ -1,0 +1,7 @@
+{
+  "name": "Temperature Readings",
+  "urlFragment": "temp",
+  "comments": "Timer inserts a temperature reading and rules insert parent and calculate averages by hour, day, month. Created with a new empty database.\n1. Click Data Explorer on the Navigation Menu (to the left)\n2. In Data Explorer, enter Author Mode (gear on top right; typical login is Admin...)\n3. Create Tables (look for the \"+\" button in the upper left)\nPlease see https://docops.ca.com/ca-live-api-creator/4-0/en/creating-apis/database-creation",
+  "isEnabled": true,
+  "authProviderName": "Built-in authentication"
+}
